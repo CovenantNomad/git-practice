@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 215px;
+  background-color: aliceblue;
+}
+
+main {
+  min-height: 768px;
+  background-color: beige;
+}
+
+footer {
+  height: 280px;
+  background-color: azure;
+}
