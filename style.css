@@ -10,8 +10,19 @@ header {
 }
 
 main {
-  min-height: 768px;
   background-color: beige;
+}
+
+.main-container {
+  min-height: 768px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 100%;
+}
+
+section {
+  background-color: royalblue;
+  height: 100%;
 }
 
 footer {
